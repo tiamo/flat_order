@@ -1,0 +1,70 @@
+/* Retina */
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+	   only screen and (-webkit-min-device-pixel-ratio: 1.5),
+	   only screen and (-moz-min-device-pixel-ratio: 2),
+	   only screen and (-o-min-device-pixel-ratio: 3/2),
+	   only screen and (-o-min-device-pixel-ratio: 2/1),
+	   only screen and (min--moz-device-pixel-ratio: 1.5),
+	   only screen and (min-device-pixel-ratio: 1.5), 
+	   only screen and (min-device-pixel-ratio: 2),
+	   only screen and (min-resolution: 192dpi),
+	   only screen and (min-resolution: 2dppx) { 
+}
+
+@media screen and (max-width:1024px) {
+	.fs-close {
+		display:none;
+	}
+	body.fs-overview .fs-close  {
+		display:block;
+	}
+}
+
+@media screen and (max-width:600px) {
+	.fs-overlay {
+		font-size:0.9em;
+	}
+	.fs-close {
+		display:none;
+	}
+	body.fs-overview .fs-close  {
+		right:50%;
+		margin:0 -15px 0 0;
+	}
+	body.fs-overview .fs-close span {
+		display:none;
+	}
+	body.fs-overview .fs-form {
+		font-size:0.9em;
+	}
+	.fs-title  {
+		font-size:0.9em;
+		text-align:center;
+	}
+	.fs-title span {
+		display:block;
+		position:static;
+		margin:0 0 10px;
+	}
+	.fs-label  {
+		text-align:center !important;
+	}
+	.fs-input  {
+		text-align:center !important;
+	}
+	.fs-nav li {
+		text-align:right !important;
+	}
+	.fs-nav li.visited {
+		text-align:left !important;
+	}
+	.fs-nav li b {
+		margin:0;
+	}
+	.fs-nav li span {
+		color:transparent;
+		position:absolute;
+		top:-999px;
+		left:-999px;
+	}
+}

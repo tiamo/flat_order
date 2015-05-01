@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<head>
+	<title>Flat test developer</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="vendor/swipe/css/swiper.min.css" rel="stylesheet" type="text/css">
+  	<link href="css/app.css" rel="stylesheet" type="text/css">
+	<link href="css/adaptive.css" rel="stylesheet" type="text/css">
+</head>
+<body class="fs-lock">
+	<div class="fs-overlay">
+		<div class="container">
+			<h2>Let's doing something great together, <br/> make your order</h2>
+			<a class="btn btn-big fs-start" href="javascript:">Make order</a>
+		</div>
+	</div>
+	<div class="fs-container">
+		<a class="fs-close" href="javascript:">
+			<span>close</span>
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" enable-background="new 0 0 40 40">
+				<line x1="15" y1="15" x2="25" y2="25" stroke="#b5c0ca" stroke-width="2.5" stroke-linecap="round" stroke-miterlimit="10"></line>
+				<line x1="25" y1="15" x2="15" y2="25" stroke="#b5c0ca" stroke-width="2.5" stroke-linecap="round" stroke-miterlimit="10"></line>
+				<circle class="circle" cx="20" cy="20" r="19" opacity="0" stroke="#d4dee5" stroke-width="1.5" stroke-linecap="round" stroke-miterlimit="10" fill="none"></circle>
+				<path d="M20 1c10.45 0 19 8.55 19 19s-8.55 19-19 19-19-8.55-19-19 8.55-19 19-19z" class="progress" stroke="#6384eb" stroke-width="1.5" stroke-linecap="round" stroke-miterlimit="10" fill="none"></path>
+			</svg>
+		</a>
+		<form class="fs-form" enctype="multipart/form-data" type="post">
+			<div class="container">
+				<div class="fs-title">
+					<span>ORDER ID: 80</span>
+					<h2>Review & Submit</h2>
+				</div>
+				<ul class="fs-nav"></ul>
+				<ol class="fs-fields">
+					<li data-title="Your info" class="first">
+						<div class="fs-form-row">
+							<label class="fs-label fs-anim-upper" for="name">What's your name?</label>
+							<input class="fs-input fs-anim-lower" type="text" name="name" id="name" placeholder="Flat Studio" required />
+						</div>
+						<div class="fs-form-row last">
+							<label class="fs-label fs-anim-upper" for="email">What's your email address?</label>
+							<input class="fs-input fs-anim-lower" type="email" name="email" id="email" placeholder="contact@flatata.com" required />
+						</div>
+					</li>
+					<li data-title="Your need">
+						<div class="fs-form-row">
+							<label class="fs-label fs-anim-upper">What you need for our project?</label>
+							<div class="swiper-container">
+								<div class="fs-checkbox-group swiper-wrapper fs-anim-lower">
+									<label class="swiper-slide">
+										<input type="checkbox" name="need[]" value="redesign" />
+										<div class="service-icon">
+											<svg xmlns="http://www.w3.org/2000/svg" viewBox="-563.333 0 128 128" enable-background="new -563.333 0 128 128">
+												<rect x="-479.5" y="77.5" fill="#D8E3EA" width="9" height="9"/>
+												<rect x="-527.5" y="77.5" fill="#D8E3EA" width="9" height="9"/>
+												<path fill="#D8E3EA" d="M-485.257,59.482l6.757,0.018v-4l-14,0.018V51.5h-13v4.034l-14,0.018v3.841l7.17,0.018
+													c-5.659,3.153-10.089,8.146-12.17,14.09c1.92,0,3.464,0,5,0c2.492-5.941,7.681-10.678,14-12.684V63.5h13v-2.759
+													c6.312,1.958,11.474,6.736,14,12.759c1.152,0,3.464,0,5,0C-475.564,67.602-479.835,62.639-485.257,59.482z"/>
+												<ellipse fill="#D8E3EA" cx="-525.518" cy="57.5" rx="4.018" ry="4"/>
+												<ellipse fill="#D8E3EA" cx="-472.481" cy="57.5" rx="4.017" ry="4"/>
+											</svg>
+										</div>
+										<span>Redesign</span>
+									</label>
+									<label class="swiper-slide">
+										<input type="checkbox" name="need[]" value="design&ui" />
+										<div class="service-icon">
+											<svg xmlns="http://www.w3.org/2000/svg" viewBox="-377.667 -382.333 128 128" enable-background="new -377.667 -382.333 128 128">
+												<polygon fill="#D8E3EA" points="-300.5,-287.5 -326.5,-287.5 -322.5,-291.833 -322.5,-297.5 -304.5,-297.5 -304.5,-291.833 "/>
+												<path fill="#D8E3EA" d="M-284.5-336.5c0-2.761-2.686-5-6-5h-46c-3.314,0-6,2.239-6,5v32c0,2.761,2.686,5,6,5h46c3.314,0,6-2.239,6-5
+													V-336.5z M-287.5-308.5c0,1.657-1.343,3-3,3h-46c-1.657,0-3-1.343-3-3v-27c0-1.657,1.343-3,3-3h46c1.657,0,3,1.343,3,3V-308.5z"/>
+											</svg>
+										</div>
+										<span>Design & UI</span>
+									</label>
+									<label class="swiper-slide">
+										<input type="checkbox" name="need[]" value="logotype" />
+										<div class="service-icon">
+											<svg xmlns="http://www.w3.org/2000/svg" viewBox="-194.167 -381.833 128 128" enable-background="new -194.167 -381.833 128 128">
+												<path fill="#D8E3EA" d="M-116.5-334.333c-7.808,0-13,6.564-13,14.5c0-7.808-6.192-14.5-14-14.5c-7.808,0-14,6.192-14,14
+													c0,4.992,1.98,9.796,6.332,14.148c0,0,16.256,14.592,18.176,16.256c1.792,1.535,4.608,1.664,6.528,0
+													c1.664-1.408,17.664-16.256,17.664-16.256c4.352-4.353,6.3-9.156,6.3-14.148C-102.372-328.142-108.692-334.333-116.5-334.333z"/>
+											</svg>
+										</div>
+										<span>Logotype</span>
+									</label>
+									<label class="swiper-slide">
+										<input type="checkbox" name="need[]" value="web" />
+										<div class="service-icon">
+											<svg xmlns="http://www.w3.org/2000/svg" viewBox="-0.167 -382 128.001 128" enable-background="new -0.167 -382 128.001 128">
+											<path fill="#D8E3EA" d="M86.5-338.5h-45c-3.2,0-6,2.8-6,6v35c0,3.199,2.8,6,6,6h45c3,0,6-1.801,6-5v-36
+												C92.5-335.7,89.699-338.5,86.5-338.5z M55.5-334.5c1.104,0,2,0.896,2,2c0,1.105-0.895,2-2,2c-1.105,0-2-0.895-2-2
+												C53.5-333.604,54.395-334.5,55.5-334.5z M49.5-334.5c1.104,0,2,0.896,2,2c0,1.105-0.896,2-2,2s-2-0.895-2-2
+												C47.5-333.604,48.396-334.5,49.5-334.5z M43.5-334.5c1.104,0,2,0.896,2,2c0,1.105-0.896,2-2,2c-1.105,0-2-0.895-2-2
+												C41.5-333.604,42.396-334.5,43.5-334.5z M89.5-297.5c0,2-1,3-3,3h-45c-2,0-3-1-3-3v-29h51V-297.5z"/>
+											</svg>
+										</div>
+										<span>Web</span>
+									</label>
+									<label class="swiper-slide">
+										<input type="checkbox" name="need[]" value="ios" />
+										<div class="service-icon">
+											<svg xmlns="http://www.w3.org/2000/svg" viewBox="173.334 -381.833 128 128" enable-background="new 173.334 -381.833 128 128">
+												<path fill="#D8E3EA" d="M260.225-305.289c-1.281,2.815-1.92,4.097-3.457,6.528c-2.304,3.455-5.504,7.808-9.472,7.808
+													c-3.584,0-4.48-2.304-9.216-2.304s-5.76,2.304-9.344,2.304c-3.969,0-7.041-3.968-9.344-7.424c-6.4-9.727-7.041-21.12-3.072-27.136
+													c2.816-4.352,7.168-6.784,11.392-6.784s6.912,2.304,10.368,2.304c3.328,0,5.376-2.304,10.368-2.304
+													c3.712,0,7.552,2.048,10.368,5.504C249.6-321.801,251.008-308.745,260.225-305.289L260.225-305.289z"/>
+												<path fill="#D8E3EA" d="M244.607-336.905c1.793-2.304,3.072-5.504,2.561-8.832c-2.943,0.256-6.271,2.048-8.191,4.48
+													c-1.793,2.176-3.328,5.376-2.688,8.576C239.488-332.681,242.688-334.473,244.607-336.905L244.607-336.905z"/>
+											</svg>
+										</div>
+										<span>IOS</span>
+									</label>
+									<label class="swiper-slide">
+										<input type="checkbox" name="need[]" value="android" />
+										<div class="service-icon">
+											<svg xmlns="http://www.w3.org/2000/svg" viewBox="347.834 -381.667 128 128" enable-background="new 347.834 -381.667 128 128">
+											<path fill="#D8E3EA" d="M419.2-336.398l1.536-2.816c0.256-0.384,0.128-0.896-0.256-1.152c-0.385-0.256-0.769-0.127-1.024,0.257
+												l-1.956,2.61c-1.664-1.023-3.953-1.141-5-1.141s-3.336,0.117-5,1.141l-2.124-2.61c-0.256-0.384-0.64-0.513-1.024-0.257
+												c-0.384,0.257-0.512,0.641-0.256,1.025l1.536,2.943c-3.132,1.94-6.132,6.059-6.132,9.898h26
+												C425.244-330.34,422.188-334.578,419.2-336.398z M408.5-329.383c-1.144,0-2-0.961-2-2.059c0-1.234,0.856-2.059,2-2.059
+												c1.143,0,2,0.961,2,2.059C410.5-330.344,409.643-329.383,408.5-329.383z M416.529-329.5c-1.081,0-2.029-0.934-2.029-2
+												c0-1.066,0.948-2,2.029-2c1.084,0,2.03,0.934,2.03,2C418.56-330.434,417.613-329.5,416.529-329.5z"/>
+											<path fill="#D8E3EA" d="M430.5-324.5c-1.408,0-3,1.336-3,3v12c0,1.793,1,3,3,3s3-1.207,3-3v-12
+												C433.5-323.164,431.907-324.5,430.5-324.5z"/>
+											<path fill="#D8E3EA" d="M394.5-324.5c-2,0-3,1.336-3,3v12c0,1.793,1,3,3,3s3-1.207,3-3v-12C397.5-323.164,396.5-324.5,394.5-324.5z"
+												/>
+											<path fill="#D8E3EA" d="M399.5-299.5h4v6c0,2,1,3,3,3s3-1,3-3v-6h6v6c0,2,1,3,3,3s3-1.051,3-3v-6h4v-25h-26V-299.5z"/>
+											</svg>
+										</div>
+										<span>Android</span>
+									</label>
+									<label class="swiper-slide">
+										<input type="checkbox" name="need[]" value="illustration" />
+										<div class="service-icon">
+											<svg xmlns="http://www.w3.org/2000/svg" viewBox="529.834 -381.667 128 128" enable-background="new 529.834 -381.667 128 128">
+												<path fill="#D8E3EA" d="M624.5-295.5c-13.568,0-54.464,0-56,0c-3,0-3.892-2.762-2.356-4.682c2.305-2.816,6.912-9.127,9.089-11.559
+													c0.896-1.023,2.432-1.492,3.712-0.212c1.023,1.024,6.556,6.827,6.556,6.827s14.435-20.073,15.46-21.737
+													c1.024-1.664,2.944-1.93,4.224-0.01c5.248,7.296,20.608,25.928,21.12,26.696C627.2-299.023,627.5-295.5,624.5-295.5z"/>
+												<circle fill="#D8E3EA" cx="581.5" cy="-330.833" r="6"/>
+											</svg>
+										</div>
+										<span>Illustration</span>
+									</label>
+									<label class="swiper-slide">
+										<input type="checkbox" name="need[]" value="motion" />
+										<div class="service-icon">
+											<svg xmlns="http://www.w3.org/2000/svg" viewBox="717.334 -382 128 128" enable-background="new 717.334 -382 128 128">
+												<polygon fill="#D8E3EA" points="789.5,-313.167 778.5,-304.167 778.5,-321.166 789.5,-314.062 "/>
+												<path fill="#D8E3EA" d="M811.5-335.5c0-2.761-2.238-5-5-5h-47c-2.762,0-5,2.239-5,5v34c0,2.761,2.238,5,5,5h47c2.762,0,5-2.239,5-5
+													V-335.5z M808.5-302.5c0,2-1,3-3,3h-45c-2,0-3-1-3-3v-23h51V-302.5z M791.5-336.5h5l-3,8h-5L791.5-336.5z M781.5-336.5h5l-3,8h-5
+													L781.5-336.5z M771.5-336.5h5l-3,8h-5L771.5-336.5z M761.5-336.5h5l-3,8h-5L761.5-336.5z M798.5-328.5l3-8h5l-3,8H798.5z"/>
+											</svg>
+										</div>
+										<span>Motion</span>
+									</label>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li data-title="Your comment">
+						<div class="fs-form-row fs-form-row-desc">
+							<label class="fs-label fs-anim-upper" for="desc">Describe how you imagine your new website</label>
+							<textarea name="desc" id="desc" class="fs-anim-lower" placeholder="Describe here"></textarea>
+						</div>
+						<div class="fs-form-row fs-form-row-upload last">
+							<label class="fs-label fs-anim-upper" for="file">Upload an document</label>
+							<div class="fs-upload fs-anim-lower">
+								<div class="fs-upload-file">Choose file</div>
+								<input type="file" name="file" id="file" accept=".doc,.rar,.zip,image/*"/>
+								<span>Send us your .doc, .jpg, .png, .rar or .zip files.</span>
+							</div>
+						</div>
+					</li>
+				</ol>
+				<div class="fs-submit">
+					<button type="submit" class="btn">Send order</button>
+				</div>
+			</div>
+		</form>
+		<div class="fs-controls" style="display:none">
+			<a href="javascript:" class="btn btn-cancel fs-back">Back</a>
+			<a href="javascript:" class="btn btn-primary fs-continue">Continue</a>
+		</div>
+	</div>
+	
+	<!--
+	<div style="background:url(resources/start.jpg) no-repeat center 0;opacity:0.8;position:absolute;top:0;width:100%;height:1000px;z-index:1111"></div>
+	<!---->
+	<!--
+	<div style="background:url(resources/order1.jpg) no-repeat center 0;opacity:0.8;position:absolute;top:-3px;width:100%;height:3000px;z-index:-1"></div>
+	<!---->
+	<!--
+	<div style="background:url(resources/order4.jpg) no-repeat center 0;opacity:0.8;position:absolute;top:-3px;width:100%;height:3000px;z-index:-1"></div>
+	<!---->
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="vendor/jquery.browser.min.js" type="text/javascript"></script>
+	<script src="vendor/swipe/js/swiper.jquery.min.js" type="text/javascript"></script>
+	<script src="js/app.js" type="text/javascript"></script>
+	
+</body>
+</html>

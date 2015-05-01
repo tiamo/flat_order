@@ -1,0 +1,18 @@
+{
+  "name": "flat_test",
+  "version": "1.0.0",
+  "authors": [
+    "tiamo <vk.tiamo@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendors",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  }
+}
